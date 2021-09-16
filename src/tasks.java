@@ -94,6 +94,30 @@ public class tasks {
 
     }*/
         // Task 6 //
+    /*public static void printNumbers(int maximum){
+        for (int i = 1; i <= maximum; i++) {
+            System.out.print("[" + i + "]");
+        }
+        System.out.println("\n");
+    }*/
+        // Task 6 //
+       //   ALT  //
+    /*public static void printNumbers(){
+        int maximum;
+        boolean continueOr = true;
+
+        while(continueOr) {
+            maximum = scanner.nextInt();
+            if (maximum > 0) {
+                for (int i = 1; i <= maximum; i++) {
+                    System.out.print("[" + i + "]");
+                }
+                continueOr = false;
+            } else {
+                System.out.println("Try inputting a positive number: ");
+            }
+        }
+    }*/
 
     public static void main(String[] args) {
         // Task 1 //
@@ -139,5 +163,13 @@ public class tasks {
         userPassword = scanner.nextLine();
         System.out.println(passwordChecker(userPassword));*/
         // Task 6 //
+        /*printNumbers(15);
+        printNumbers(5);*/
+        // Task 6 //
+        //   ALT  //
+        /*
+        System.out.println("Enter a number: ");
+        printNumbers();*/
+
     }
 }
